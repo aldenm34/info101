@@ -3,12 +3,13 @@ rovs <- data.frame(
   model = c("Chasing M2 Pro", "Qysea Fifish Pro V6", "BlueROV2"),
   price_usd = c(3459, 2999, 6500)
 )
-rovs[???, ???]
+rovs[1, 2]
 
 
 # Pull out the model column from rovs using both square bracket and dollar sign
 # indexing
-
+rovs$model
+rovs[, 1]
 
 # The file flowcytodata.csv contains artificial flow cytometry data, a technique
 # for counting phytoplankton and other single-cell organisms. Use the data from
